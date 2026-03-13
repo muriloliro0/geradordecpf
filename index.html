@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerador de CPF - Portal do Cidadão</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <span class="gov-logo">gerador de <b>cpf</b></span>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="card">
+            <h1>Gerador de CPF</h1>
+            <p class="description">Clique no botão abaixo para gerar um número de CPF válido para fins de testes de software.</p>
+            
+            <div class="result-area">
+                <input type="text" id="cpfDisplay" readonly placeholder="000.000.000-00">
+                <button onclick="copyToClipboard()" id="copyBtn">Copiar</button>
+            </div>
+
+            <button class="btn-primary" onclick="generateAndDisplay()">Gerar Novo CPF</button>
+            
+            <div class="alert">
+                <strong>Atenção:</strong> Números gerados aqui são apenas para uso em desenvolvimento e testes.
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

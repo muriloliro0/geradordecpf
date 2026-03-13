@@ -1,0 +1,95 @@
+body {
+    font-family: "Rawline", helvetica, arial, sans-serif;
+    background-color: #f8f8f8;
+    margin: 0;
+    color: #333;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background: #004691;
+    color: white;
+    padding: 10px 0;
+}
+
+.gov-logo {
+    font-size: 1.2rem;
+    letter-spacing: -1px;
+}
+
+.card {
+    background: white;
+    padding: 40px;
+    margin-top: 50px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+h1 {
+    color: #004691;
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.description {
+    color: #666;
+    margin-bottom: 30px;
+}
+
+.result-area {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+#cpfDisplay {
+    font-size: 1.5rem;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    text-align: center;
+    width: 250px;
+    background: #eee;
+}
+
+button {
+    cursor: pointer;
+    font-weight: bold;
+    border: none;
+    transition: 0.3s;
+}
+
+.btn-primary {
+    background-color: #1351b4;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 100px;
+    font-size: 1rem;
+}
+
+.btn-primary:hover {
+    background-color: #0c326d;
+}
+
+#copyBtn {
+    background: #008052;
+    color: white;
+    padding: 0 20px;
+    border-radius: 4px;
+}
+
+.alert {
+    margin-top: 30px;
+    font-size: 0.8rem;
+    color: #856404;
+    background-color: #fff3cd;
+    padding: 10px;
+    border-radius: 4px;
+}
